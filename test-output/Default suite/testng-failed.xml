@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ebusniess.PostFreeAdd.CreatePostFreeAddTest">
+      <class name="com.Chandan.Practice.MakeMyTripDate">
         <methods>
-          <include name="beforClass"/>
-          <include name="postFreeAdTest"/>
-          <include name="beforMethod"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="afterMethpd"/>
+          <include name="trip" invocation-numbers="4 5"/>
         </methods>
-      </class> <!-- com.Ebusniess.PostFreeAdd.CreatePostFreeAddTest -->
+      </class> <!-- com.Chandan.Practice.MakeMyTripDate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

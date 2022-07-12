@@ -51,7 +51,7 @@ public class MsExcelUtility {
 	 */
 
 	public  void setDataintoExcel(String sheetName,int rowNum,int cellNum,String message) throws IOException {
-		wb.getSheet(sheetName).getRow(rowNum).createCell(cellNum).setCellValue(message);
+		 wb.getSheet(sheetName).getRow(rowNum).createCell(cellNum).setCellValue(message);
 
 	}
 

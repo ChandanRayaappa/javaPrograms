@@ -1,4 +1,5 @@
-  
+ 
+
    
 package com.JavaProgram.PrakashSir;
 
@@ -15,10 +16,9 @@ public class BubleSortAecending {
 				n[j]=temp;
 			}
 		}
+		System.out.print(n[i]+" ");
 	}
-	for(int data:n) {
-		System.out.println(data);
-	}
+	
 	}
 
 }
