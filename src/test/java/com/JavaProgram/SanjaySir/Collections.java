@@ -9,7 +9,7 @@ public class Collections {
 	public static void main(String[] args) {
 		ArrayList<Object> list=new ArrayList<Object>();
 		list.add("c");
-		list.add(1);
+		list.add(1);       
 
 		System.out.println(list);
 		ArrayList<Object> list1=new ArrayList<Object>();
